@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Parte 1 - Criação de arquivos e diretórios
+
 # Ex. 1
 mkdir unix_tests
 
@@ -48,3 +50,48 @@ tail -4 skills.txt
 
 # Ex. 16
 rm *txt
+
+# Parte 2 - Manipulação & Busca
+
+# Ex. 1
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+# Ex. 2
+cat countries.txt
+
+# Ex. 3
+less countries.txt
+
+# Ex. 4
+less countries.txt | grep Zambia
+
+# Ex. 5
+grep Brazil countries.txt
+
+# Ex. 6
+grep -i brazil countries.txt
+
+# Ex. 7
+grep -iv 'fox' phrases.txt
+
+# Ex. 8
+wc -w phrases.txt
+
+# Ex. 9
+wc -l phrases.txt
+
+# Ex. 10
+touch empty.tbt
+touch empty.pdf
+
+# Ex. 11
+ls *
+
+# Ex. 12
+ls *txt
+
+# Ex. 13
+ls *txt *tbt
+
+# Ex. 14
+man ls
