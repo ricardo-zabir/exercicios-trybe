@@ -7,22 +7,45 @@
       #title {
         size: 65px;
         color: orange;
+        font-family: sans-serif;
       }
       #list {
         background-color: rosybrown;
+        text-align: center;
+        font-style:normal;
+        line-height: 80px;
       }
       .bg-style {
-        background-color: blueviolet;
+        background-color: rgb(168, 146, 189);
       }
+      #paragraph {
+        font-weight: 600;
+        font-size: 3em;
+        text-align: center;
+      }
+      body {
+        font-size: 16px;
+      }
+      #red {
+        text-decoration:underline;
+        background-color: red;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+      #brown {
+        background-color: brown;
+      }
+
     </style>
 </head>
 <body>
     <h1 id="title">Exercícios 3.2</h1>
-    <p class="bg-style">Qual é sua cor favorita?</p>
+    <p class="bg-style" id="paragraph">Qual é sua cor favorita?</p>
     <ul id="list"  class="bg-style">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li> 
+      <li id="yellow">Amarelo</li>
+      <li id="red">Vermelho</li>
+      <li id="brown">Marrom</li> 
     </ul>
 </body>
 </html>
