@@ -1,0 +1,27 @@
+ol li {
+  background-color: yellow;
+}
+.impar{
+  color: green;
+}
+h1, h2, h3 {
+  color: red;
+}
+h1, h2, h3 em {
+  border: 1px solid black;
+}
+li {
+  font-size: 20px;
+}
+li em {
+  font-weight: bold;
+}
+.azul {
+  color: blue;
+}
+.java {
+background-color: pink;
+}
+.partners li:hover {
+font-weight: bold;
+}

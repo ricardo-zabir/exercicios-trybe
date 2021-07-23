@@ -1,0 +1,11 @@
+h1, p {
+  text-align: center;
+}
+li:hover {
+  background-color: green;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul, ol {
+  list-style: none;
+}
