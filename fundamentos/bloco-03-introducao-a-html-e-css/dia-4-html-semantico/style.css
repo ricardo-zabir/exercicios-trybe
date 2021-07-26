@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+}
+.first-container {
+  text-align: center;
+}
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+}
+.list {
+  list-style: none;
+  
+  
+}
+.second-third {
+  text-align: center;
+}
+
+
+.award-container {
+text-align: center;
+}
+
+.award {
+  display: inline;
+}
