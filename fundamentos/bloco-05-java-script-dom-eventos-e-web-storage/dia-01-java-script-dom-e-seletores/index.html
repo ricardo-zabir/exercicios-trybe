@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="p-class">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph"class="p-class">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.querySelector("#page-title").innerText = "A ilha do medo";
+      document.querySelector("#second-paragraph").style.backgroundColor = "green";
+      document.querySelector("#second-paragraph").style.color = "white";
+      document.querySelector("#subtitle").innerText = "Alteração no subtitulo";
+      console.log(document.querySelectorAll(".p-class"));
+      document.querySelectorAll(".p-class")[0].style.backgroundColor = "black";
+      const subttl = document.querySelectorAll("h4")[0];
+      subttl.style.color = "yellow";
+    </script>
+  </body>
+</html>
