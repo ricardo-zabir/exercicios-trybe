@@ -1,30 +1,8 @@
 
+
+function numberConverter(numeroRomano) {
+let numeroDef = 0;
 let numero = [];
-let numeroRomano = "CIV";
-
-let i = {
-  sozinho: 1 ,
-  antes: -1 ,
-
-}
-let v = 5;
-
-let x = {
-  sozinho: 10 ,
-  antes: -10
-}
-
-let l = 50;
-
-let c = {
-  sozinho: 100 ,
-  antes: -100
-}
-
-let d = 500;
-
-let m = 1000;
-
 function converter(letter){
   let num = null;
   switch(letter) {
@@ -53,18 +31,20 @@ function converter(letter){
 }
 
 for(let index=0;index<numeroRomano.length;index+=1){
-numero.push[converter[numeroRomano[index]]]
+numero.push(converter(numeroRomano[index]));
 }
 
-
-for(let superIndex=0;superIndex<numero.length;superIndex+=1){
-  if(numero[index+1]>numero[index]){numero[index]=-numero[index]}
+for(let superIndex=0;superIndex<numero.length-1;superIndex+=1) {
+  if(numero[superIndex+1]>numero[superIndex]) {
+    numero[superIndex] = -numero[superIndex];
+  }
 }
 
-for(let megaIndex=0;megaIndex<numero.length/2;megaIndex+=1) {
-  if(index=numero.length){break;}
-  numero[index] += numero[index+1];
-  numero[index+1] = 0;
+for(let hyperIndex=0;hyperIndex<numero.length;hyperIndex+=1) {
+  numeroDef += numero[hyperIndex];
 }
-
-console.log(numero);
+return numeroDef;
+}
+console.log(numberConverter("MCMLXXXVI"));
+console.log(numberConverter("CXXVIII"));
+console.log(numberConverter("MMXXI"));
