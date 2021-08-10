@@ -48,3 +48,47 @@ return numeroDef;
 console.log(numberConverter("MCMLXXXVI"));
 console.log(numberConverter("CXXVIII"));
 console.log(numberConverter("MMXXI"));
+
+function arrayOfNumbers (vector) {
+  let evenNumbers = [];
+  for(let index=0;index<vector.length;index+=1) {
+    for(let superIndex=0;superIndex<vector[index].length;superIndex+=1) {
+      if(vector[index][superIndex] % 2 === 0 ) {
+        evenNumbers.push(vector[index][superIndex]);
+      }
+    }
+  }
+  return evenNumbers;
+}
+console.log(arrayOfNumbers([[1, 2], [3,4,5,6], [7,8,9,10]]));
+
+function fruitsTracker(basket) {
+  let tracker = {
+  
+  }
+  let passage = false;
+  for(let index=0;index<basket.length;index+=1) {
+      for (const key in tracker) {
+          if(basket[index]===key) {
+            tracker[key] +=1;
+            passage=true;
+          }
+          }
+      if(passage===false) {
+        tracker[basket[index]] = 1;
+      }
+      passage=false;
+    }
+return tracker;  
+  }
+  console.log(fruitsTracker(['Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva']));
+  let keys = 0;
+  let fruitsTrackerContainer = fruitsTracker(['Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva']);
+  for (const key in fruitsTrackerContainer) {
+    keys+=1;
+    }
+  console.log("Sua cesta possui : ");
+  for (const key in fruitsTrackerContainer) {
+    console.log(fruitsTrackerContainer[key] + " "+ key);
+  }
+
