@@ -20,6 +20,3 @@
   filhoPrimeiroFilhoDoFilho.innerHTML = "Esse é o texto do filho do primeiro filho do filho";
   document.querySelector("#primeiroFilhoDoFilho").appendChild(filhoPrimeiroFilhoDoFilho);
   console.log(document.querySelector("#primeiroFilhoDoFilho p").parentNode.parentNode.nextElementSibling);
-
-
-  
