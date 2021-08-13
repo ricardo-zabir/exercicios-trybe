@@ -1,0 +1,30 @@
+body {
+  background-color: yellow;
+  color: rgb(14, 14, 211);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+img {
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.requirement {
+  font-size: 10px;
+  display: inline;
+  margin-right: 40px;
+}
+
+input {
+  display: block;
+}
+button {
+  display: block;
+}
