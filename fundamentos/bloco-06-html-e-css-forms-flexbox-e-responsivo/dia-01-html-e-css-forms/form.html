@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-3">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Currículo</h1>
+  <form action="">
+  <fieldset>
+    <label for="nome">Nome : </label>
+    <input type="text" id="nome" required maxlength="40">
+    <br>
+    <label for="email">Email : </label>
+    <input type="email" name="email" id="email" required maxlength="50">
+    <br>
+    <label for="cpf">CPF : </label>
+    <input type="text" name="cpf" id="cpf" maxlength= "11" required>
+    <br>
+    <label for="endereco">Endereço : </label>
+    <input type="text" name="endereco" id="endereco" required maxlength="200" >
+    <br>
+    <label for="cidade">Cidade : </label>
+    <input type="text" name="cidade" id="cidade" required maxlength="28">
+    <br>
+    <label for="estado">Estado : </label>
+    <select name="estado" id="estado" required>
+    </select>
+    <br>
+    <label for="">Tipo : </label>
+    <label for="casa">
+    <input type="radio" name="tipo" value="casa" id="casa" required>Casa
+    </label>
+    <label for="ap">
+      <input type="radio" name="tipo" id="ap" value="ap" required>Apartamento
+    </label>
+  </fieldset>
+  <fieldset>
+    <textarea name="resumo" id="resumo" cols="30" rows="10" placeholder="Escreva aqui o resumo do seu currículo" maxlength="1000" required></textarea>
+    <br>
+    <label for="cargo">Cargo : </label>
+    <input type="text" name="cargo" id="cargo" maxlength="40" required>
+    <br>
+    <label for="descricao">Descrição do cargo : </label>
+    <input type="text" name="descricao" id="descricao" required maxlength="500">
+    <br>
+    <label for="data-de-incio">Data de início : </label>
+    <input type="text" name="data" id="data-de-inicio" required> 
+  </fieldset>
+  <button type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

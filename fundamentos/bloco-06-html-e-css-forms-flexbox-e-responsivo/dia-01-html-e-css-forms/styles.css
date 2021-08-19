@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  padding: 50px;
+  display: inline-block;
+  border: 1px solid saddlebrown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+
+}
+
+* {
+  margin: 10px;
+}
+
+ 
