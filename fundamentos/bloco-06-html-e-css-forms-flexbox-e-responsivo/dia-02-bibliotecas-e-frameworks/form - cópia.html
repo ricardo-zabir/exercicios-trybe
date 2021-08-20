@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-3">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="node_modules/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="node_modules/popup-validation/bin/validation.min.css">
+</head>
+<body>
+  <h1>Currículo</h1>
+  <form action="" id="form" class="form-panel">
+  <fieldset>
+    <label for="name">Nome : </label>
+    <input type="text" id="name" name="name"  autocomplete="off" class="validate form-control" 
+    data-validate="required"  maxlength="40">
+    <br>
+    <label for="email">Email : </label>
+    <input type="email" name="email" id="email" required maxlength="50" class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="cpf">CPF : </label>
+    <input type="text" name="cpf" id="cpf" maxlength= "11" required class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="endereco">Endereço : </label>
+    <input type="text" name="endereco" id="endereco" required maxlength="200" class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="cidade">Cidade : </label>
+    <input type="text" name="cidade" id="cidade" required maxlength="28" class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="estado">Estado : </label>
+    <select name="estado" id="estado" required class="validate form-control" 
+    data-validate="required">
+    </select>
+    <br>
+    <label for="">Tipo : </label>
+    <label for="casa">
+    <input type="radio" name="tipo" value="casa" id="casa" required >Casa
+    </label>
+    <label for="ap">
+      <input type="radio" name="tipo" id="ap" value="ap" required >Apartamento
+    </label>
+  </fieldset>
+  <fieldset>
+    <textarea name="resumo" id="resumo" cols="30" rows="10" placeholder="Escreva aqui o resumo do seu currículo" maxlength="1000" required class="validate form-control" 
+    data-validate="required"></textarea>
+    <br>
+    <label for="cargo">Cargo : </label>
+    <input type="text" name="cargo" id="cargo" maxlength="40" required class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="descricao">Descrição do cargo : </label>
+    <input type="text" name="descricao" id="descricao" required maxlength="500" class="validate form-control" 
+    data-validate="required">
+    <br>
+    <label for="data-de-incio">Data de início : </label>
+    <input type="text" name="data" id="datepicker" autocomplete="off" required class="validate form-control" 
+    data-validate="required"> 
+  </fieldset>
+  <button class="btn btn-info"  type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+  <script src="node_modules/pikaday/pikaday.js"></script>
+  <script>
+    let  picker  =  new  Pikaday ( {  field : document.getElementById('datepicker')}); 
+  </script>
+  <script src="node_modules/popup-validation/bin/validation.min.js"></script>
+  <script>
+   validation.init("form");
+    validation.highlight();
+  </script>
+</body>
+</html>
