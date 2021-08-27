@@ -113,9 +113,7 @@
   #content {
     width: 100%;
   }
-  #header {
-    
-  }
+  
   #navigation ul  {
     display: flex;
     flex-direction: column;
