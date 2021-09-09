@@ -44,25 +44,25 @@ Este repositório contém todos os exercícios realizados por [Ricardo Fonseca Z
 - [x] 5.7 (Bônus) Projeto - Adivinhe a Cor
 - [x] 5.7 (Bônus) Projeto - Carta Misteriosa
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :hourglass_flowing_sand:
+### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :white_check_mark:
 - [x] 6.1 HTML & CSS - Forms
 - [x] 6.2 Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 Introdução - CSS Flexbox
 - [x] 6.3 CSS Flexbox - Parte 1
-- [ ] 6.4 CSS Flexbox - Parte 2
-- [ ] 6.5 CSS Responsivo - Mobile First
-- [ ] 6.6 Projeto - Trybewarts
+- [x] 6.4 CSS Flexbox - Parte 2
+- [x] 6.5 CSS Responsivo - Mobile First
+- [x] 6.6 Projeto - Trybewarts
 
-### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
-- [ ] 7.1 JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7.2 JavaScript ES6 - Objects
-- [ ] 7.3 Testes unitários em JavaScript
-- [ ] 7.4 Projeto - JavaScript Testes Unitários
+### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :white_check_mark:
+- [x] 7.1 JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7.2 JavaScript ES6 - Objects
+- [x] 7.3 Testes unitários em JavaScript
+- [x] 7.4 Projeto - JavaScript Testes Unitários
 
 ### Bloco 8: Higher Order Functions do JavaScript ES6 :hourglass_flowing_sand:
-- [ ] 8.1 JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.2 JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.3 JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8.1 JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] 8.2 JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 8.3 JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.4 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.5 Projeto - Zoo functions
 
