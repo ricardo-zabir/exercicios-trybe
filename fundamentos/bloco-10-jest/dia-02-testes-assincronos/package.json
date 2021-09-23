@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "dia-02-testes-assincronos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callbacks.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.5"
+  }
+}
