@@ -7,6 +7,7 @@ getRepos,
 getListAnimals,
 findAnimalsByName,
 getAnimal,
+getAnimalsbyAge,
 } = require('./exercise');
 
 
@@ -79,3 +80,16 @@ describe('Testando promise - findAnimalByName', () => {
     });
   });
 });
+
+describe('Testando a promise- getAnimalsByAge', () => {
+  test('Quando existe animal com a idade', () => {
+    getAnimalsbyAge(5).then((arrayOfAnimals) => {
+      expect(arrayOfAnimals).toEqual([{ name: 'Preguiça', age: 5, type: 'Cat' }]);
+    })
+  });
+  test('Quando não existe animal com a idade', () => {
+    return getAnimalsbyAge(10).catch((error) => {
+      expect(error.message).toEqual('Nenhum animal com essa idade');
+    })
+  })
+})

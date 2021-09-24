@@ -72,6 +72,19 @@ function findAnimalsByName(name) {
 }, 200);
 }
 
+function getAnimalsbyAge(age) {
+  return new Promise((resolve,reject) => {
+    setTimeout(() => {
+      const animalsAgedSpecificAge = Animals.filter((animal) => animal.age === age);
+      if (animalsAgedSpecificAge.length !== 0) {
+        return resolve(animalsAgedSpecificAge)
+      }
+      else {
+        return reject(new Error('Nenhum animal com essa idade'))
+      }
+    },200);
+  })
+}
 
 
 
@@ -84,4 +97,5 @@ module.exports = {
   getListAnimals,
   findAnimalsByName,
   getAnimal,
+  getAnimalsbyAge
 }
