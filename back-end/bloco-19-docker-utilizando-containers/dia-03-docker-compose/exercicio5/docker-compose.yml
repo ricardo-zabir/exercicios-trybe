@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    build: "./"
+    image: httpd:2.4
+    volumes:
+      - :/usr/local/apache2/htdocs/"
+    restart: always
+    ports: 
+    - 8080:80
+
+volumes:
+/Users/ricardozabir/Desktop/exercicios-trybe/back-end/bloco-19-docker-utilizando-containers/dia-03-docker-compose/exercicio5/docker-react-app/src:
