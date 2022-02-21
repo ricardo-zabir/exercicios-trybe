@@ -1,13 +1,24 @@
 const Cep = require('../services/Cep');
 
-const getCep = (req, res, _next) => {
+const getCep = async (req, res, _next) => {
     const { cep } = req.params;
-    if (!Cep.validateCEP(cep)) return res.status(400).json( 
-        { "error": { "code": "invalidData", "message": "CEP inválido" } }
-        )
-        return res.status(200).json({message: 'ba'})
+    const cepData = await Cep.validateCEP(cep);
+    return res.status(200).json(cepData);
+}
+
+const postCep = async (req, res, _next) => {
+    const { cep, logradouro, bairro, localidade, uf } = req.body;
+    const cepData = await Cep.registerCEPValid({
+        cep,
+        logradouro,
+        bairro,
+        localidade,
+        uf
+    });
+    return res.status(201).json(cepData)
 }
 
 module.exports = {
-    getCep
+    getCep,
+    postCep
 }
