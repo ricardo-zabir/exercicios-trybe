@@ -1,0 +1,9 @@
+// ./tsconfig.json
+{
+  "extends": "@tsconfig/node14/tsconfig.json", // estendemos a configuração base para o Node 14
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "noImplicitAny": false // pasta onde nossos arquivos compilados serão salvos
+  },
+}
