@@ -35,4 +35,29 @@ class MyClass {
     }
 }
 const myObject = new MyClass(2);
-console.log(myObject.myFunc(6));
+class ConsoleLogger {
+    log(param) {
+        console.log(param);
+    }
+}
+class ConsoleLogger2 {
+    log(param) {
+        console.log(`${param} 2`);
+    }
+}
+class ExampleDatabse {
+    constructor(logger = new ConsoleLogger()) {
+        this.logger = logger;
+    }
+    save(key, value) {
+        this.logger.log(`Key: ${key}, value:${value}`);
+    }
+}
+const loggerObj = new ConsoleLogger();
+const loggerObj2 = new ConsoleLogger2();
+const database1 = new ExampleDatabse(loggerObj);
+const database2 = new ExampleDatabse(loggerObj2);
+const database3 = new ExampleDatabse();
+database1.save('Chave1', 'Valor1');
+database2.save('Chave2', 'Valor2');
+database3.save('Chave3', 'Valor3');
