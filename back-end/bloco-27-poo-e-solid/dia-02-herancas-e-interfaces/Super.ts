@@ -1,6 +1,5 @@
 class Super {
     isSuper: boolean;
-
     constructor(isSuper: boolean) {
         this.isSuper = isSuper
     }
@@ -47,4 +46,41 @@ class MyClass implements myInterface {
 }
 
 const myObject = new MyClass(2);
-console.log(myObject.myFunc(6));
+
+interface Logger {
+    log(param: string): void;
+}
+
+class ConsoleLogger implements Logger {
+    log(param: string): void {
+        console.log(param)
+    }
+}
+
+class ConsoleLogger2 implements Logger {
+    log(param: string): void {
+        console.log(`${param} 2`)
+    }
+}
+
+interface Database {
+    logger: Logger;
+    save(key: string, value: string):void;   
+}
+
+class ExampleDatabse implements Database {
+    constructor(public logger: Logger = new ConsoleLogger()){}
+    save(key: string, value: string): void {
+        this.logger.log(`Key: ${key}, value:${value}`)
+    }
+}
+
+const loggerObj = new ConsoleLogger();
+const loggerObj2 = new ConsoleLogger2();
+const database1 = new ExampleDatabse(loggerObj);
+const database2 = new ExampleDatabse(loggerObj2);
+const database3 = new ExampleDatabse();
+
+database1.save('Chave1','Valor1');
+database2.save('Chave2', 'Valor2');
+database3.save('Chave3', 'Valor3');
