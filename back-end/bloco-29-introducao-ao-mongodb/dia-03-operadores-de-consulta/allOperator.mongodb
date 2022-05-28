@@ -1,0 +1,8 @@
+use('sample');
+db.fruits.find();
+db.fruits.find({ tags: { $all: ["name", "qty"]}});
+db.fruits.find({ $and: [{
+    tags: "qty"
+}, {
+    tags: "name"
+}]});

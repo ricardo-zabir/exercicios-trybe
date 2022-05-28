@@ -1,0 +1,4 @@
+use('nomeDoBanco');
+db.nomeDaColecao.insertOne({ x: 1});
+db.nomeDaColecao2.insertOne({ x: 1});
+db.createCollection("CreatedCollection");

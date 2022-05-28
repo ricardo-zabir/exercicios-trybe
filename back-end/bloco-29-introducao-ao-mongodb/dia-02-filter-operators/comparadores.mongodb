@@ -1,0 +1,9 @@
+use('sample');
+db.fruits.find({ qty: { $lt: 20}});
+db.fruits.find({ qty: { $lte: 20}});
+db.fruits.find({ qty: { $gt: 20}});
+db.fruits.find({ qty: { $gte: 20}});
+db.fruits.find({ qty: { $eq: 20}});
+db.fruits.find({ qty: { $ne: 20}});
+db.fruits.find({ qty: { $in: [10, 20]}});
+db.fruits.find({ qty: { $nin: [10,20]}});

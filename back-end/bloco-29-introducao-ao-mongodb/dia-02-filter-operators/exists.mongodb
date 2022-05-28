@@ -1,0 +1,3 @@
+use('sample');
+db.fruits.find({ qty: { $exists: true}});
+db.fruits.find({ qty: { $exists: true, $in: [15,30]}});
