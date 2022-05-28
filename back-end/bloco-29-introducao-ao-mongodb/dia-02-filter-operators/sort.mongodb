@@ -1,0 +1,3 @@
+use('sample');
+db.fruits.find().sort({qty: -1});
+db.fruits.find().sort({ qty: 1});

@@ -1,0 +1,3 @@
+use('sample');
+db.fruits.deleteOne({ qty: 15});
+db.fruits.find();

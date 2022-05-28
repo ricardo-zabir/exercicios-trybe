@@ -1,0 +1,7 @@
+use('sample');
+db.fruits.find({ qty: { $not: {
+    $gt: 10
+} } });
+db.fruits.find({$or: [{ qty: { $gt: 20 }}, {qty: { $eq: 15}}]});
+db.fruits.find({$nor: [{ qty: { $lt: 20 }}, {qty: { $eq: 30}}]});
+db.fruits.find({$and: [{ qty: {$gt: 15}}, {qty: {$ne: 30}}]});
