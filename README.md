@@ -126,7 +126,7 @@ Este repositório contém todos os exercícios realizados por [Ricardo Fonseca Z
 ### Bloco 18: Projeto App de Receitas :white_check_mark:
 - [x] 18.1 Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ### Bloco 19: Docker: Utilizando Containers :white_check_mark:
 - [x] 19.1 Introdução - Back-end
@@ -143,117 +143,117 @@ Este repositório contém todos os exercícios realizados por [Ricardo Fonseca Z
 - [x] 20.4 Manipulando tabelas
 - [x] 20.5 Projeto - All For One
 
-### Bloco 21: Funções SQL, Joins e Subqueries :hourglass_flowing_sand:
-- [ ] 21.1 Funções mais usadas no SQL
-- [ ] 21.2 Descomplicando JOINs e UNIONs
-- [ ] 21.3 Stored Routines & Subqueries
-- [ ] 21.4 Projeto - Vocabulary Booster
+### Bloco 21: Funções SQL, Joins e Subqueries :white_check_mark:
+- [x] 21.1 Funções mais usadas no SQL
+- [x] 21.2 Descomplicando JOINs e UNIONs
+- [x] 21.3 Stored Routines & Subqueries
+- [x] 21.4 Projeto - Vocabulary Booster
 
-### Bloco 22: Introdução ao desenvolvimento Web com NodeJS :hourglass_flowing_sand:
-- [ ] 22.1 Intro - NodeJS
-- [ ] 22.1 NodeJS - Introdução
-- [ ] 22.2 NodeJS - Fluxo Assíncrono
-- [ ] 22.3 Testes com NodeJS
-- [ ] 22.4 Express: HTTP com Node.js
-- [ ] 22.5 Praticando Express
-- [ ] 22.6 Projeto - Talker manager
+### Bloco 22: Introdução ao desenvolvimento Web com NodeJS :white_check_mark:
+- [x] 22.1 Intro - NodeJS
+- [x] 22.1 NodeJS - Introdução
+- [x] 22.2 NodeJS - Fluxo Assíncrono
+- [x] 22.3 Testes com NodeJS
+- [x] 22.4 Express: HTTP com Node.js
+- [x] 22.5 Praticando Express
+- [x] 22.6 Projeto - Talker manager
 
-### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful :hourglass_flowing_sand:
-- [ ] 23.1 Introdução - Arquitetura de Software
-- [ ] 23.1 Arquitetura de Software - Camada de Model
-- [ ] 23.2 Arquitetura de Software - Camada de Controller e Service
-- [ ] 23.3 Arquitetura Web - Rest e Restful
-- [ ] 23.4 Arquitetura de Software - Testando as Camadas
-- [ ] 23.5 Projeto - Store Manager
+### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful :white_check_mark:
+- [x] 23.1 Introdução - Arquitetura de Software
+- [x] 23.1 Arquitetura de Software - Camada de Model
+- [x] 23.2 Arquitetura de Software - Camada de Controller e Service
+- [x] 23.3 Arquitetura Web - Rest e Restful
+- [x] 23.4 Arquitetura de Software - Testando as Camadas
+- [x] 23.5 Projeto - Store Manager
 
-### Bloco 24: Node.js: ORM e Autenticação :hourglass_flowing_sand:
-- [ ] 24.1 Introdução - Node.js: ORM e Autenticação
-- [ ] 24.1 ORM - Interface de aplicação com o banco de dados
-- [ ] 24.2 ORM - Associations
-- [ ] 24.3 JWT - (JSON Web Token)
-- [ ] 24.4 Testando APIs com Testes de Integração
-- [ ] 24.5 Projeto - API de Blogs
+### Bloco 24: Node.js: ORM e Autenticação :white_check_mark:
+- [x] 24.1 Introdução - Node.js: ORM e Autenticação
+- [x] 24.1 ORM - Interface de aplicação com o banco de dados
+- [x] 24.2 ORM - Associations
+- [x] 24.3 JWT - (JSON Web Token)
+- [x] 24.4 Testando APIs com Testes de Integração
+- [x] 24.5 Projeto - API de Blogs
 
-### Bloco 25: Deployment :hourglass_flowing_sand:
-- [ ] 25.1 Introdução - Deploy
-- [ ] 25.1 Infraestrutura - Deploy com Heroku
-- [ ] 25.2 Deploy Docker & Heroku
-- [ ] 25.3 Projeto - Stranger Things
+### Bloco 25: Deployment :white_check_mark:
+- [x] 25.1 Introdução - Deploy
+- [x] 25.1 Infraestrutura - Deploy com Heroku
+- [x] 25.2 Deploy Docker & Heroku
+- [x] 25.3 Projeto - Stranger Things
 
-### Bloco 26: TypeScript :hourglass_flowing_sand:
-- [ ] 26.1 Introdução - TypeScript
-- [ ] 26.1 Introdução ao TypeScript
-- [ ] 26.2 Tipagem Estática e Generics
-- [ ] 26.3 Express com TypeScript
-- [ ] 26.4 Projeto - Trybe Smith
+### Bloco 26: TypeScript :white_check_mark:
+- [x] 26.1 Introdução - TypeScript
+- [x] 26.1 Introdução ao TypeScript
+- [x] 26.2 Tipagem Estática e Generics
+- [x] 26.3 Express com TypeScript
+- [x] 26.4 Projeto - Trybe Smith
 
-### Bloco 27: Programação Orientada a Objetos (POO) e SOLID :hourglass_flowing_sand:
-- [ ] 27.1 Introdução à Orientação a Objetos
-- [ ] 27.2 Herança e Interfaces
-- [ ] 27.3 Polimorfismo
-- [ ] 27.4 SOLID - Introdução
-- [ ] 27.5 SOLID - Continuação
-- [ ] 27.6 Projeto - Trybers and Dragons
+### Bloco 27: Programação Orientada a Objetos (POO) e SOLID :white_check_mark:
+- [x] 27.1 Introdução à Orientação a Objetos
+- [x] 27.2 Herança e Interfaces
+- [x] 27.3 Polimorfismo
+- [x] 27.4 SOLID - Introdução
+- [x] 27.5 SOLID - Continuação
+- [x] 27.6 Projeto - Trybers and Dragons
 
-### Bloco 28: Projeto - TFC - Trybe Futebol Clube :hourglass_flowing_sand:
-- [ ] 28.1 Projeto - TFC - Trybe Futebol Clube
+### Bloco 28: Projeto - TFC - Trybe Futebol Clube :white_check_mark:
+- [x] 28.1 Projeto - TFC - Trybe Futebol Clube
 
-### Bloco 29: Introdução ao MongoDB :hourglass_flowing_sand:
-- [ ] 29.1 Introdução - NoSQL
-- [ ] 29.1 MongoDB - Introdução
-- [ ] 29.2 Filter Operators
-- [ ] 29.3 Projeto - Data Flights
+### Bloco 29: Introdução ao MongoDB :white_check_mark:
+- [x] 29.1 Introdução - NoSQL
+- [x] 29.1 MongoDB - Introdução
+- [x] 29.2 Filter Operators
+- [x] 29.3 Projeto - Data Flights
 
-### Bloco 30: MongoDB: Updates Simples e Complexos :hourglass_flowing_sand:
-- [ ] 30.1 Updates Simples
-- [ ] 30.2 Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 Projeto - Commerce
+### Bloco 30: MongoDB: Updates Simples e Complexos :white_check_mark:
+- [x] 30.1 Updates Simples
+- [x] 30.2 Updates Complexos - Arrays - Parte 1
+- [x] 30.3 Updates Complexos - Arrays - Parte 2
+- [x] 30.4 Projeto - Commerce
 
-### Bloco 31: Masterclass - VPS, CI/CD :hourglass_flowing_sand:
-- [ ] 31.1 Dia 1
-- [ ] 31.2 Dia 2
+### Bloco 31: Masterclass - VPS, CI/CD :white_check_mark:
+- [x] 31.1 Dia 1
+- [x] 31.2 Dia 2
 
-### Bloco 32: Projeto - App de Delivery :hourglass_flowing_sand:
-- [ ] 32.1 Projeto - App de Delivery 
+### Bloco 32: Projeto - App de Delivery :white_check_mark:
+- [x] 32.1 Projeto - App de Delivery 
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :white_check_mark:
 
-### Bloco 33: Introdução à Python e Raspagem de Dados da Web :hourglass_flowing_sand:
-- [ ] 33.1 Introdução - Ciência da Computação
-- [ ] 33.1 Aprendendo Python
-- [ ] 33.2 Entrada e Saída de dados
-- [ ] 33.3 Testes
-- [ ] 33.4 Projeto - Job Insights
+### Bloco 33: Introdução à Python e Raspagem de Dados da Web :white_check_mark:
+- [x] 33.1 Introdução - Ciência da Computação
+- [x] 33.1 Aprendendo Python
+- [x] 33.2 Entrada e Saída de dados
+- [x] 33.3 Testes
+- [x] 33.4 Projeto - Job Insights
 
-### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto :hourglass_flowing_sand:
-- [ ] 34.1 Introdução à programação orientada a objetos
-- [ ] 34.2 Herança, Composição e Interfaces
-- [ ] 34.3 Padrões de projeto
-- [ ] 34.4 Projeto - Relatórios de Estoque
+### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto :white_check_mark:
+- [x] 34.1 Introdução à programação orientada a objetos
+- [x] 34.2 Herança, Composição e Interfaces
+- [x] 34.3 Padrões de projeto
+- [x] 34.4 Projeto - Relatórios de Estoque
 
-### Bloco 35: Redes e Raspagem de Dados :hourglass_flowing_sand:
-- [ ] 35.1 Arquitetura de redes
-- [ ] 35.2 Redes de computadores, ferramentas e segurança
-- [ ] 35.3 Raspagem de dados
-- [ ] 35.4 Projeto - Tech news
+### Bloco 35: Redes e Raspagem de Dados :white_check_mark:
+- [x] 35.1 Arquitetura de redes
+- [x] 35.2 Redes de computadores, ferramentas e segurança
+- [x] 35.3 Raspagem de dados
+- [x] 35.4 Projeto - Tech news
 
-### Bloco 36: Algoritmos :hourglass_flowing_sand:
-- [ ] 36.1 Complexidade de Algoritmos
-- [ ] 36.2 Recursividade e Estratégias para solução de problemas
-- [ ] 36.3 Algoritmos de ordenação e busca
-- [ ] 36.4 Projeto - Algoritmos
+### Bloco 36: Algoritmos :white_check_mark:
+- [x] 36.1 Complexidade de Algoritmos
+- [x] 36.2 Recursividade e Estratégias para solução de problemas
+- [x] 36.3 Algoritmos de ordenação e busca
+- [x] 36.4 Projeto - Algoritmos
 
-### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Set :hourglass_flowing_sand:
-- [ ] 37.1 Arquitetura de Computadores
-- [ ] 37.2 Arrays
-- [ ] 37.3 Hashmap e Dict
-- [ ] 37.4 Set
-- [ ] 37.5 Projeto - Restaurant Orders
+### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Set :white_check_mark:
+- [x] 37.1 Arquitetura de Computadores
+- [x] 37.2 Arrays
+- [x] 37.3 Hashmap e Dict
+- [x] 37.4 Set
+- [x] 37.5 Projeto - Restaurant Orders
 
-### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas :hourglass_flowing_sand:
-- [ ] 38.1 Nó e Listas Encadeadas
-- [ ] 38.2 Pilhas e Filas
-- [ ] 38.3 Projeto - TING - Trybe Is Not Google
+### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas :white_check_mark:
+- [x] 38.1 Nó e Listas Encadeadas
+- [x] 38.2 Pilhas e Filas
+- [x] 38.3 Projeto - TING - Trybe Is Not Google
 
 
